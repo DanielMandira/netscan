@@ -8,3 +8,14 @@ tokio = { version = "1", features = ["full"] }
 pnet = "0.34.0" # Manipulação de pacotes e interfaces
 dns-lookup = "2.0" # Resolução de Hostname
 colored = "2.0" # Output bonito no terminal
+clap = { version = "4.5", features = ["derive"] } # CLI arguments
+serde = { version = "1.0", features = ["derive"] } # Serialização
+serde_json = "1.0" # Export JSON
+csv = "1.3" # Export CSV
+chrono = { version = "0.4", features = ["serde"] } # Timestamps e datas
+indicatif = "0.17" # Barra de progresso
+reqwest = { version = "0.12", features = ["json"] } # HTTP client para webhooks
+warp = "0.3" # Web server para dashboard
+tokio-tungstenite = "0.21" # WebSocket para dashboard real-time
+rand = "0.8" # Números aleatórios para modo stealth
+lazy_static = "1.4" # Variáveis estáticas globais
