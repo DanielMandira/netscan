@@ -1,9 +1,33 @@
 use warp::Filter;
 use std::sync::{Arc, Mutex};
 use crate::ScanResult;
+use std::process::Command;
 
 lazy_static::lazy_static! {
     static ref LATEST_SCAN: Arc<Mutex<Option<ScanResult>>> = Arc::new(Mutex::new(None));
+}
+
+fn open_browser(url: &str) {
+    #[cfg(target_os = "windows")]
+    {
+        let _ = Command::new("cmd")
+            .args(["/C", "start", url])
+            .spawn();
+    }
+    
+    #[cfg(target_os = "linux")]
+    {
+        let _ = Command::new("xdg-open")
+            .arg(url)
+            .spawn();
+    }
+    
+    #[cfg(target_os = "macos")]
+    {
+        let _ = Command::new("open")
+            .arg(url)
+            .spawn();
+    }
 }
 
 pub async fn start_web_server() {
@@ -19,9 +43,15 @@ pub async fn start_web_server() {
     let routes = index.or(api_status);
     
     println!("Dashboard disponível em: http://localhost:8080");
+    println!("Abrindo navegador...");
+    
+    // Abrir navegador
+    open_browser("http://localhost:8080");
+    
     warp::serve(routes).run(([127, 0, 0, 1], 8080)).await;
 }
 
+#[allow(dead_code)]
 pub fn update_scan_data(result: ScanResult) {
     let mut scan = LATEST_SCAN.lock().unwrap();
     *scan = Some(result);
