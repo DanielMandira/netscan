@@ -1,0 +1,10 @@
+[package]
+name= "rust_net_scanner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+pnet = "0.34.0" # Manipulação de pacotes e interfaces
+dns-lookup = "2.0" # Resolução de Hostname
+colored = "2.0" # Output bonito no terminal

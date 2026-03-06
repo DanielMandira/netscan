@@ -1,0 +1,11 @@
+C:\Users\fatec-dsm6\Documents\GitHub\Rust\netscan\target\debug\deps\socket2-d672bc2427b8f17d.d: C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\lib.rs C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\sockaddr.rs C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\socket.rs C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\sockref.rs C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\sys\windows.rs
+
+C:\Users\fatec-dsm6\Documents\GitHub\Rust\netscan\target\debug\deps\libsocket2-d672bc2427b8f17d.rlib: C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\lib.rs C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\sockaddr.rs C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\socket.rs C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\sockref.rs C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\sys\windows.rs
+
+C:\Users\fatec-dsm6\Documents\GitHub\Rust\netscan\target\debug\deps\libsocket2-d672bc2427b8f17d.rmeta: C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\lib.rs C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\sockaddr.rs C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\socket.rs C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\sockref.rs C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\sys\windows.rs
+
+C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\lib.rs:
+C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\sockaddr.rs:
+C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\socket.rs:
+C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\sockref.rs:
+C:\Users\fatec-dsm6\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.6.2\src\sys\windows.rs:
